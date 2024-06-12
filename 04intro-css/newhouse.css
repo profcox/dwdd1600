@@ -1,0 +1,153 @@
+body {
+    background-color: #EEEFEA;
+    margin: 0;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/* Style the header */
+header {
+    background-color: #D6D3CC;
+    padding: 3rem 2vw;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    letter-spacing: .3rem;
+    font-weight: 700;
+    color: #484C49;
+    margin: 0;
+}
+
+header p {
+    font-weight: 400;
+    letter-spacing: .1rem;
+    color: #83382A;
+    margin: 0;
+}
+
+/* Style the nav */
+nav {
+    background-color: #484C49
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+}
+
+nav a {
+    color: #EEEFEA;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-family: Roboto;
+    font-weight: 400;
+    display: block;
+    padding: .9rem 2rem;
+}
+
+nav li.active a {
+    background-color: #95978A;
+    color: #484C49;
+}
+
+nav a:hover {
+    color: #83382A;
+}
+
+/* Style main */
+main {
+    padding: 1rem 2vw;
+}
+
+main h1 {
+    color: #484C49;
+}
+
+main h2 {
+    color: #484C49;
+    margin-bottom: 0;
+}
+
+main h2 p {
+    margin-left: 2vw;
+}
+
+main p {
+    font-weight: 300;
+}
+
+main address {
+    border: 1px solid #83382A;
+    border-radius: .5rem;
+    padding: 1rem;
+    width: 30vw;
+    background-color: #95978A;
+    font-style: normal;
+    font-size: .9rem;
+}
+
+main dd {
+    font-size: .9rem;
+    line-height: 125%;
+}
+
+main ul {
+    list-style-type: square;
+    background-color: #95978A;
+    padding: .5rem 3vw;
+    margin: .5rem;
+}
+
+main li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+
+main ul a {
+    color: #EEEFEA;
+}
+
+main ul a:hover {
+    color: #83382A;
+}
+
+main ol {
+    background-color: #95978A;
+    padding: .5rem 3vw;
+    margin: .5rem;
+}
+
+main ol a {
+    color: #EEEFEA;
+}
+
+main ol a:hover {
+    color: #83382A;
+}
+
+main hr {
+    border-color: #83382A;
+}
+
+main a {
+    color: #484C49;
+}
+
+main a:hover {
+    color: #83382A;
+}
+
+/* Style the footer */
+
+footer {
+    background-color: #D6D3CC;
+    text-align: center;
+    font-weight: 500;
+    font-size: .9rem;
+    padding: 2rem 2vw;
+}
