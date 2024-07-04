@@ -183,6 +183,16 @@ section.gallery {
     flex-wrap: wrap;
 }
 
+section.gallery figure {
+    margin: .5rem 2% 0 0;
+}
+
+section.gallery figcaption {
+    text-align: center;
+    font-size: .8rem;
+    color: #484C49
+}
+
 figure.plans {
     width: 40%;
     margin: 2em 2% 0 0;
@@ -211,22 +221,6 @@ figure.finalmats img {
 }
 
 figure.finalmats figcaption {
-    text-align: center;
-    font-size: .8rem;
-    color: #484C49;
-}
-
-figure.design {
-    width: 30%;
-    margin: 2em 2% 0 0;
-}
-
-figure.design img {
-    width: 100%;
-    height: auto;
-}
-
-figure.design figcaption {
     text-align: center;
     font-size: .8rem;
     color: #484C49;
