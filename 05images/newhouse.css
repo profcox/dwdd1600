@@ -160,12 +160,6 @@ figure.foundation figcaption {
     color: #484C49;
 }
 
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
 figure.progress {
     width: 50%;
     display: block;
@@ -205,7 +199,7 @@ figure.plans figcaption {
 }
 
 figure.finalmats {
-    width: 50%;
+    width: 40%;
     display: block;
     margin: auto;
 }
