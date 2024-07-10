@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <title>Our New House</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="A chronicle of the construction of our house">
+        <meta name="keywords" content="construction, interior design, homebuilding">
+        <meta name="author" content="Suzy Cox">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="newhouse.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    </head>
+
+    <body>
+        <header>
+            <img src="img/logo.png" alt="Our New Home logo" width="100" height="89">
+            <div>
+                <h1>Our New Home</h1>
+                <p>Ryan and Suzy Move to Summit County!</p>
+            </div>
+        </header>
+
+        <!--Create links to each of the main pages on the site-->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="progress.html">Progress</a></li>
+                <li class="active"><a href="plans.html">Plans</a></li>
+                <li><a href="design.html">Design</a></li>
+                <li><a href="survey.html">Design Survey</a></li>
+                <li><a href="model.html">Model Home</a></li>
+                <li><a href="features.html">Features</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <h1>Plans</h1>
+            <p>We selected a modified version of the <a href="https://ivoryhomes.com/home-details/washington-farmhouse" target="_blank" rel="noopener">Washington Farmhouse</a> plan from Ivory Homes for our house. Our main modification was a massive expansion of the garage to accommodate Ryan's woodshop. Pushing the dimensions of the shop also allowed us to expand nearly all of the rooms in the house by two feet. It feels a bit silly to be building such a large house for just the two of us now that we're empty nesters, but we also want this to be our forever home and the place our kids return to for summer hiking adventures and winter ski vacations.</p>
+
+            <!--Create an index to link to each of the section-->
+            <h2 id="homesections">Sections</h2>
+            <ol>
+                <li><a href="#exterior">Exterior</a></li>
+                <li><a href="#mainfloor">Main Floor</a></li>
+                <li><a href="#secondfloor">Second Floor</a></li>
+                <li><a href="#basement">Basement</a></li>
+            </ol>
+
+            <hr>
+            
+            <!--Include sections for the exterior and each level of the home-->
+            <h2 id="exterior">Exterior Plans</h2>
+            <section class="gallery">
+                <figure class="plans">
+                    <img src="img/frontelevation.png" alt="picture of exterior front and right side plans" width="400" height="300" loading="lazy">
+                    <figcaption>Exterior front and right elevations</figcaption>
+                </figure>
+                <figure class="plans">
+                    <img src="img/sideelevation.png" alt="picture of side house plans" width="400" height="300" loading="lazy">
+                    <figcaption>Exterior rear and left elevations</figcaption>
+                </figure>
+            </section>
+            <!--Create a back to top link to make page navigation easier-->
+            <p><a href="#homesections">Back to Top</a></p>
+
+            <hr>
+
+            <h2 id="mainfloor">Main Floor</h2>
+            <figure class="plans">
+                <img src="img/mainlevel.png" alt="picture of floor plans for the interior of the main level of a house" width="400" height="300" loading="lazy">
+                <figcaption>Main floor</figcaption>
+            </figure>
+            <p><a href="#homesections">Back to Top</a></p>
+
+            <hr>
+
+            <h2 id="secondfloor">Second Floor</h2>
+            <figure class="plans">
+                <img src="img/upstairs.png" alt="picture of floor plans for the interior of the second level of a house" width="400" height="300" loading="lazy">
+                <figcaption>Second floor</figcaption>
+            </figure>
+            <p><a href="#homesections">Back to Top</a></p>
+
+            <hr>
+
+            <h2 id="basement">Basement</h2>
+            <figure class="plans">
+                <img src="img/basement.png" alt="picture of floor plans for the interior of the basement of a house" width="400" height="300" loading="lazy">
+                <figcaption>Basement</figcaption>
+            </figure>
+            <p><a href="#homesections">Back to Top</a></p>
+            
+            <hr>
+        </main>
+
+        <footer>
+            &copy; 2024 &bull; Suzy Cox
+        </footer>
+    </body>
+</html>

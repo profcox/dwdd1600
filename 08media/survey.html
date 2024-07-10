@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <title>Our New House</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="A chronicle of the construction of our house">
+        <meta name="keywords" content="construction, interior design, homebuilding">
+        <meta name="author" content="Suzy Cox">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="newhouse.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    </head>
+
+    <body>
+        <header>
+            <img src="img/logo.png" alt="Our New Home logo" width="100" height="89">
+            <div>
+                <h1>Our New Home</h1>
+                <p>Ryan and Suzy Move to Summit County!</p>
+            </div>
+        </header>
+
+        <!--Create links to each of the main pages on the site-->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="progress.html">Progress</a></li>
+                <li><a href="plans.html">Plans</a></li>
+                <li><a href="design.html">Design</a></li>
+                <li class="active"><a href="survey.html">Design Survey</a></li>
+                <li><a href="model.html">Model Home</a></li>
+                <li><a href="features.html">Features</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <h1>Give Us Input On Our Design!</h1>
+
+            <p>As we continue to choose finishes and furnishings for our house, we would love your input! Help us choose some of the items for our house by filling out the survey below. Please keep in mind that we are going for a mountain-inspired organic modern aesthetic informed by our skiing and hiking in Northern and Southern Utah.</p>
+
+            <form method="get" class="survey" action="thanks.html">
+
+                <fieldset>
+                    <legend>Who Are You?</legend>
+
+                    <label>
+                        First Name:
+                        <input type="text" name="fname" required>
+                    </label>
+
+                    <label>
+                        Last Name:
+                        <input type="text" name="lname" required>
+                    </label>
+
+                    <label>
+                        Phone Number:
+                        <input type="tel" name="phone" required placeholder="801-867-5309">
+                    </label>
+
+                    <label>
+                        Email address:
+                        <input type="email" name="email" required>
+                    </label>
+
+                    <h4 class="question">How We Know Each Other:</h4>
+                    <label>
+                        <input type="radio" name="relationship" value="family">
+                        Family
+                    </label>
+
+                    <label>
+                        <input type="radio" name="relationship" value="friend">
+                        Friend
+                    </label>
+
+                    <label>
+                        <input type="radio" name="relationship" value="coworker">
+                        Co-worker
+                    </label>
+
+                    <label>
+                        <input type="radio" name="relationship" value="other">
+                        Other
+                    </label>
+
+                    <label>
+                        <input type="text" name="other" placeholder="ex. Trail buddies">
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Great Room Furnishings</legend>
+
+                    <h4 class="question">Which rug should we get for the great room?</h4>
+                    <label>
+                        <input type="radio" name="rug" value="alina">
+                        <img src="img/design/alina_rug.jpeg" alt="grey rug with off-white geometric shapes" width="150" height="176" loading="lazy">
+                    </label>
+
+                    <label>
+                        <input type="radio" name="rug" value="zahra">
+                        <img src="img/design/zahra_rug_sm.jpeg" alt="farmhouse style rug with charcoal, off-white, and terracotta florals" width="150" height="176" loading="lazy">
+                    </label>
+
+                    <h4 class="question">Which storage bench should we get for the great room?</h4>
+                    <label>
+                        <input type="radio" name="rug" value="bella">
+                        <img src="img/design/bella_bench.jpeg" alt="sage green bench with dark feet" width="150" height="150" loading="lazy">
+                    </label>
+
+                    <label>
+                        <input type="radio" name="rug" value="daisy">
+                        <img src="img/design/daisy_bench.jpg" alt="green bench with a wavy front" width="150" height="150" loading="lazy">
+                    </label>
+
+                    <label>
+                        <input type="radio" name="rug" value="mirca">
+                        <img src="img/design/mirca_bench.jpeg" alt="sage green bench with light wooden feet" width="150" height="150" loading="lazy">
+                    </label>
+
+                    <label>
+                        <input type="radio" name="rug" value="orange">
+                        <img src="img/design/storage_bench_sm.jpeg" alt="terra cotta bench" width="150" height="150" loading="lazy">
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Landscaping Options</legend>
+                    <p>The community we will be living in is a high mountain desert and will utilize natural plantings. Which of the following plants do you think we should add to our landscaping?</p>
+
+                    <label>
+                        <input type="checkbox" name="lavender" value="yes">
+                        Lavender
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="penstemon" value="yes">
+                        Penstemon
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="yarrow" value="yes">
+                        Yarrow
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="spruce" value="yes">
+                        Weeping Norway Spruce
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="spike" value="yes">
+                        Silver Spike Grass
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="milkweed" value="yes">
+                        Milkweed
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Outdoor Shed</legend>
+                    <label>Which company do you recommend for our outdoor shed?
+                        <select name="time">
+                            <option value="none">Please Select</option>
+                            <option value="noon">A-Shed</option>
+                            <option value="afternoon">Apex Shed</option>
+                            <option value="morning">Top Shed</option>
+                            <option value="evening">Tuff Shed</option>
+                        </select>
+                    </label>
+
+                    <label>Why?
+                        <textarea name="shed_comments">Explain your shed choice here</textarea>
+                    </label>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Comments</legend>
+                    <label>Additional Comments and Suggestions
+                        <textarea name="shed_comments">Add any additional comments or suggestions about our house design here</textarea>
+                    </label>
+                </fieldset>
+
+                <input type="submit" value="Send My Input">
+                <input type="reset" value="Clear My Choices">
+            </form>
+            
+        </main>
+
+        <footer>
+            &copy; 2024 &bull; Suzy Cox
+        </footer>
+    </body>
+</html>
