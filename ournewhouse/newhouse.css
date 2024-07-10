@@ -352,6 +352,33 @@ figure.finalmats figcaption {
     font-weight: 300;
 }
 
+/* Style the table */
+table.home-features {
+    width: 60%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+table.home-features th {
+    background-color: #95978A;
+    color: #EEEFEA;
+    padding: 0.5rem 1vw;
+    text-align: left;
+}
+
+table.home-features tr:nth-child(odd) {
+    background-color: #D6D3CC;
+}
+
+table.home-features tr:hover {
+    background-color: rgba(149, 151, 138, 0.2);
+}
+
+table.home-features td {
+    padding: 0.3rem 1vw;
+    color: #484c49;
+}
+
 /* Style the footer */
 
 footer {
