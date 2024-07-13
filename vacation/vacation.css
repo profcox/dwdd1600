@@ -52,6 +52,8 @@ body {
     nav {
         background-color: #254b59;
         margin: 0;
+        position: fixed;
+        width: 100%;
     }
     
     nav ul {
@@ -314,7 +316,7 @@ section.gallery img:hover {
 
 .request textarea {
     height: 6rem;
-    width: 500px;
+    width: 90%;
     margin-left: .6rem;
 }
 
