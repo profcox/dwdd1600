@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Adventure Trails Travel</title>
+        
+        <link rel="stylesheet" href="vacation.css">
+        <link href="https://fonts.googleapis.com/css2?family=Akronim&family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Questrial&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        
+        <meta charset="UTF-8">
+        <meta name="description" content="Website for a fake hiking adventure travel agendy">
+        <meta name="keywords" content="hiking, travel, adventure">
+        <meta name="author" content="Suzy Cox">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </head>
+
+    <body>
+        
+
+        <nav>
+            <ul>
+                <li><img class="logo" src="img/logo.png" alt="Adventure Trails Travel logo" width="40" height="40"></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="packages.html">Packages</a></li>
+                <li class="active"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <header>
+            <h1 class="main_title">Adventure Trails Travel</h1>
+        </header>
+
+        <main>
+            <h1>Contact Us</h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12105.27618635189!2d-111.4965256!3d40.6669387!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87526d42e1fb267d%3A0x375f7c9e40d2c7b7!2sPark%20City%20High%20School!5e0!3m2!1sen!2sus!4v1720832956736!5m2!1sen!2sus" width="40%" height="200" style="border:0; float: right;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <h2>Our Location</h2>
+            <p>We are located at:</p>
+            <address>
+                1750 Kearns Blvd<br>
+                Park City, UT 84060
+            </address>
+            
+            <h2>Send a Request</h2>
+
+            <p>Use the form below to request a reservation, ask questions, or give us feedback! We would love to hear from you.</p>
+
+            <form class="request" method="get" action="thanks.html">
+                <fieldset>
+                    <legend>Adventurer Information</legend>
+                    <label>
+                        First Name:
+                        <input type="text" name="fname" required>
+                    </label>
+
+                    <label>
+                        Last Name:
+                        <input type="text" name="lname" required>
+                    </label>
+
+                    <label>
+                        Email Address:
+                        <input type="email" name="email" required>
+                    </label>
+
+                    <label>
+                        Phone Number:
+                        <input type="tel" name="phone" placeholder="555-555-5555">
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Request Type</legend>
+                    <select>
+                        <option>Make a Selection</option>
+                        <option>Request a Reservation</option>
+                        <option>Ask a Question</option>
+                        <option>Send Us Feedback</option>
+                    </select>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Adventure Destination</legend>
+                    <label>
+                        <input type="radio" name="destination" value="Utah">
+                        Utah
+                    </label>
+
+                    <label>
+                        <input type="radio" name="destination" value="Dolomites">
+                        Dolomites
+                    </label>
+
+                    <label>
+                        <input type="radio" name="destination" value="Iceland">
+                        Iceland
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Details</legend>
+                    <textarea name="details" placeholder="Enter the details of your request here"></textarea>
+                </fieldset>
+
+                <section class="buttons">
+                    <input type="submit" value="Send Request">
+                    <input type="reset" value="Clear Selections">
+                </section>
+            </form>
+            
+            <h1 class="tagline">Your adventure begins here.</h1>
+
+            <hr>
+        </main>
+
+        <footer>
+            &copy; 2024 Adventure Trails Travel, LLC &bull; <a href="mailto: info@adventuretrails.com">Email Us</a>
+        </footer>
+    </body>
+</html>

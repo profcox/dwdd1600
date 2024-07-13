@@ -1,0 +1,354 @@
+* {box-sizing: border-box;}
+
+body {
+    margin: 0;
+    font-family: "Questrial";
+    font-size: 18px;
+    font-weight: 300;
+}
+
+/* style the nav */
+
+/* navigation for phones */
+@media only screen and (max-width: 600px) {
+    nav {
+        background-color: #254b59;
+        margin: 0;
+    }
+    
+    nav ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+
+    nav a {
+        display: block;
+        color: #f2f2e9;
+        background-image: linear-gradient(#254b59, #40616d);
+        text-decoration: none;
+        text-align: center;
+        font-size: 1.1rem;
+        font-family: "Questrial";
+        font-weight: 400;
+        padding: .8rem;
+    }
+
+    nav li.active a {
+        background-image: linear-gradient(#809fa6, #9fb7bc);
+        color: #254b59;
+    }
+    
+    nav a:hover {
+        color: #5c735d;
+    }
+
+
+} /* end of phone nav */
+
+/* navigation for tablets and laptops */
+@media only screen and (min-width: 601px) {
+    
+    nav {
+        background-color: #254b59;
+        margin: 0;
+    }
+    
+    nav ul {
+        display: flex;
+        list-style-type: none;
+        padding: 0 2vw;
+        margin: 0;
+    }
+    
+    nav a {
+        color: #f2f2e9;
+        text-decoration: none;
+        font-size: 1.1rem;
+        font-family: "Questrial";
+        font-weight: 400;
+        display: block;
+        padding: .9rem 2rem;
+    }
+    
+    nav li.active a {
+        background-color: #809fa6;
+        color: #254b59;
+    }
+    
+    nav a:hover {
+        color: #5c735d;
+    }
+} /* end of tablet and laptop nav */
+
+/* style the header */
+
+@media only screen and (max-width: 600px) {
+    header {
+          background-attachment: scroll;
+        }
+}
+
+@media only screen and (min-width: 601px) {
+    header {
+        background-image: linear-gradient(to bottom, rgba(242, 242, 233, 0.52), rgba(128, 159, 166, 0.73)), url("img/banner.jpg");
+        min-height: 500px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0;
+    }
+}
+
+.main_title {
+    text-align: center;
+    margin: 0;
+    padding-top: 10rem;
+    font-size: 40px;
+    color: #593e2e;
+    font-family: "Akronim";
+    font-size: 70px;
+
+}
+
+/* style the main */
+
+main {
+    max-width: 64rem;
+    margin: 0 auto;
+    padding: 0 2vw;
+}
+
+h1, h2, h3 {
+    font-family: "Quattrocento Sans";
+    font-weight: 700;
+}
+
+h1 {
+    color: #254b59;
+}
+
+h2 {
+    color: #5c735d;
+    margin-bottom: 0;
+}
+
+h3 {
+    color: #593e2e;
+    margin-bottom: 0;
+}
+
+p {
+    margin-top: 0.7rem;
+}
+
+dl, ol {
+    margin-top: .5rem;
+}
+
+dt {
+    font-family: "Quattrocento Sans";
+    font-weight: 700;
+    font-size: 1.1em;
+    color: #254b59;
+}
+
+dd {
+    font-size: .9em;
+}
+
+a {
+    color: #5c735d;
+}
+
+section.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section.testimonials blockquote {
+    
+    background-color: #809fa6;
+    width: 300px;
+    padding: 1rem 2vw;
+    border: 1px solid #5c735d;
+    border-radius: 5px;
+}
+
+.tagline {
+    font-family: "Akronim";
+    font-size: 50px;
+    text-align: center;
+    color: #593e2e;
+    clear: both;
+}
+
+.price {
+    font-family: "Quattrocento Sans";
+    color: #254b59;
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+hr {
+    border: 2px solid #254b59;
+}
+
+section.package_left {
+    width: 60%;
+    border: 1px outset;
+    padding: 1rem 1vw;
+    margin: 2rem 2vw;
+    clear: right;
+}
+
+section.package_left figure {
+    float: right;
+    width: 30%;
+}
+
+section.package_left figure img {
+    width: 100%;
+    height: auto;
+}
+
+section.package_left p {
+    margin-top: .1rem;
+}
+
+section.package_right {
+    width: 60%;
+    border: 1px outset;
+    padding: 1rem 1vw;
+    margin: 2rem 2vw;
+    float: right;
+    text-align: right;
+}
+
+section.package_right figure {
+    float: left;
+    width: 30%;
+}
+
+section.package_right figure img {
+    width: 100%;
+    height: auto;
+}
+
+section.package_right p {
+    margin-top: .1rem;
+}
+
+/* style the figures */
+figcaption {
+    font-size: .8em;
+    text-align: center;
+}
+
+figure.front_image {
+    width: 30%;
+    margin: 0 0 .8rem 2%;
+    float:right;
+    clear: left;
+}
+
+figure.front_image img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+section.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section.gallery figure {
+    margin: .5rem 2% 0 0;
+}
+
+section.gallery img:hover {
+    box-shadow: 0 0 10px rgba(92, 115, 93, 0.9);
+}
+
+/* style the form */
+.request {
+    background-color: #f2f2e9;
+    border-radius: 3px;
+    padding: 1rem;
+}
+
+.request fieldset {
+    border: 1px solid #593e2e;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+}
+
+.request legend {
+    color: #254b59;
+    font-size: .8rem;
+}
+
+.request label {
+    margin: .5rem;
+}
+
+.request label, .request select, .request [type=text], .request [type=tel], .request [type=email], .request textarea {
+    display: block;
+}
+
+.request select, .request [type=text], .request [type=tel], .request [type=email], .request textarea {
+    border: 1px solid #5c735d;
+    padding: .3rem;
+    width: 250px;
+    border-radius: .3rem;
+    font-family: 'Questrial', sans-serif;
+    font-weight: 400;
+    font-size: .9em;
+}
+
+.request select {
+    margin-left: .6rem;
+}
+
+.request textarea {
+    height: 6rem;
+    width: 500px;
+    margin-left: .6rem;
+}
+
+.request :required {
+    background-color: rgba(128, 159, 166, 0.2);
+}
+
+.request [type=submit], .request [type=reset] {
+    background-color: #5c735d;
+    border: 1px solid #593e2e;
+    border-radius: .3rem;
+    padding: 1rem 2rem;
+    color: #f2f2e9;
+    font-family: 'Questrial', sans-serif;
+    font-weight: 400;
+    margin: 1rem 0 0 1vw;
+    font-size: .8em;
+}
+
+.buttons {
+    text-align: center;
+}
+
+
+/* style the footer */
+
+footer {
+    text-align: center;
+    margin: 0;
+    padding: 2rem;
+    background-color: #809fa6;
+    color: #f2f2e9;
+}
+
+footer a {
+    color: #254b59;
+}
