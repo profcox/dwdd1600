@@ -203,6 +203,7 @@ section.package_left {
     padding: 1rem 1vw;
     margin: 2rem 2vw;
     clear: right;
+    background-color: #f2f2e9;
 }
 
 section.package_left figure {
@@ -226,6 +227,7 @@ section.package_right {
     margin: 2rem 2vw;
     float: right;
     text-align: right;
+    background-color: #f2f2e9;
 }
 
 section.package_right figure {
