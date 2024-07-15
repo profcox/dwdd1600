@@ -43,6 +43,11 @@ body {
         color: #5c735d;
     }
 
+    .navlogo {
+        display: block;
+        margin: auto;
+    }
+
 
 } /* end of phone nav */
 
@@ -51,6 +56,8 @@ body {
     
     nav {
         background-color: #254b59;
+        display: flex;
+        align-items: center;
         margin: 0;
         position: fixed;
         width: 100%;
@@ -81,6 +88,13 @@ body {
     nav a:hover {
         color: #5c735d;
     }
+
+    .navlogo {
+        display: block;
+        margin: auto;
+
+    }
+
 } /* end of tablet and laptop nav */
 
 /* style the header */
@@ -164,9 +178,14 @@ a {
     color: #5c735d;
 }
 
+section.explore {
+    background-color: #f2f2e9;
+}
+
 section.testimonials {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 section.testimonials blockquote {
@@ -174,6 +193,7 @@ section.testimonials blockquote {
     background-color: #809fa6;
     width: 300px;
     padding: 1rem 2vw;
+    margin: .5rem 2% 0 0;
     border: 1px solid #5c735d;
     border-radius: 5px;
 }
@@ -183,6 +203,7 @@ section.testimonials blockquote {
     font-size: 50px;
     text-align: center;
     color: #593e2e;
+    margin: .5rem;
     clear: both;
 }
 
@@ -274,6 +295,17 @@ section.gallery figure {
 
 section.gallery img:hover {
     box-shadow: 0 0 10px rgba(92, 115, 93, 0.9);
+}
+
+figure.logo {
+    width: 15%;
+    display: block;
+    margin: 0 auto;
+}
+
+figure.logo img {
+    width: 100%;
+    height: auto;
 }
 
 /* style the form */
